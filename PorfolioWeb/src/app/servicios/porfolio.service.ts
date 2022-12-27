@@ -7,8 +7,5 @@ export class PorfolioService {
 
   constructor() { }
 
-  obtenerDatos(){
-    console.log("el servicio porfolio esta funcinado");
-  }
 
 }
