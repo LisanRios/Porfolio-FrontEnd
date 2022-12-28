@@ -24,15 +24,6 @@
       </div>
     </div> 
 
-
-    <div class="row misProyectosTitulo">
-        <div class="col-md-5 col-sm-2">
-            <h3 class="text-start"><i>Tecnologías Dominadas</i></h3>
-        </div>
-    </div> 
-    <div class="row g-4 row-cols-lg-3"> 
-
-    </div>
     <div class="container px-4 py-5" id="hanging-icons">
         <h3 class="pb-2"><i>Tecnologías Dominadas</i></h3>
         <li class="linea1 list-group-item" *ngFor="let tecnology of tecnologyList">
@@ -42,7 +33,7 @@
                         <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
                     </div>
                     <div>
-                        <h2><i class="fa-brands fa-html5"></i>  {{tecnology.name}}</h2>
+                        <h2>{{tecnology.icon}}{{tecnology.name}}</h2>
                         <p>Párrafo de texto debajo del encabezado para explicar el encabezado. Lo agregaremos con otra oración y probablemente sigamos hasta que nos quedemos sin palabras.</p>
                         <a href="#" class="btn btn-primary">Botón principal</a>
                     </div>
