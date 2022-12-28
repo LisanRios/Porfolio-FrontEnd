@@ -1,0 +1,125 @@
+{
+    "name": "Lisandro Rios",
+    "age": "19",
+    "image": "https://scontent.faep8-3.fna.fbcdn.net/v/t39.30808-1/297017505_5098698573572799_1175421696128662533_n.jpg?stp=dst-jpg_p200x200&_nc_cat=107&ccb=1-7&_nc_sid=7206a8&_nc_ohc=FGX8ihF1kS8AX818YTH&_nc_ht=scontent.faep8-3.fna&oh=00_AfACJajMzBs8-jfkTflyKKcnGOtx8TqCCZF8oynyT-k8fg&oe=63B0AB1F",
+    "position": "Programador Web Full Stack Junior",
+    "ubication": "Buenos Aires (Argentina)",
+    "project": 
+    [
+        {
+            "type": "Página Web",
+            "name": "Nombre del proyecto",
+            "date": "00/00/2999",
+            "description": "Este proyecto se encuentra en desarrollo.",
+            "link": "#"
+        },
+        {
+            "type": "Página Web",
+            "name": "Nombre del proyecto",
+            "date": "00/00/2999",
+            "description": "Este proyecto se encuentra en desarrollo.",
+            "link": "#"
+        },
+        {
+            "type": "Página Web",
+            "name": "Nombre del proyecto",
+            "date": "00/00/2999",
+            "description": "Este proyecto se encuentra en desarrollo.",
+            "link": "#"
+        },
+        {
+            "type": "Página Web",
+            "name": "Nombre del proyecto",
+            "date": "00/00/2999",
+            "description": "Este proyecto se encuentra en desarrollo.",
+            "link": "#"
+        },
+        {
+            "type": "Página Web",
+            "name": "Nombre del proyecto",
+            "date": "00/00/2999",
+            "description": "Este proyecto se encuentra en desarrollo.",
+            "link": "#"
+        },
+        {
+            "type": "Página Web",
+            "name": "Nombre del proyecto",
+            "date": "00/00/2999",
+            "description": "Este proyecto se encuentra en desarrollo.",
+            "link": "#"
+        }
+    ],
+    "tecnology":
+    [
+        {
+            "name":"HTML",
+            "description":"",
+            "learnMore":""
+        },
+        {
+            "name":"",
+            "description":"",
+            "learnMore":""
+        },
+        {
+            "name":"",
+            "description":"",
+            "learnMore":""
+        },
+        {
+            "name":"",
+            "description":"",
+            "learnMore":""
+        },
+        {
+            "name":"",
+            "description":"",
+            "learnMore":""
+        },
+        {
+            "name":"",
+            "description":"",
+            "learnMore":""
+        },
+        {
+            "name":"",
+            "description":"",
+            "learnMore":""
+        },
+        {
+            "name":"",
+            "description":"",
+            "learnMore":""
+        },
+        {
+            "name":"",
+            "description":"",
+            "learnMore":""
+        },
+        {
+            "name":"",
+            "description":"",
+            "learnMore":""
+        },
+        {
+            "name":"",
+            "description":"",
+            "learnMore":""
+        },
+        {
+            "name":"",
+            "description":"",
+            "learnMore":""
+        },
+        {
+            "name":"",
+            "description":"",
+            "learnMore":""
+        },
+        {
+            "name":"",
+            "description":"",
+            "learnMore":""
+        }
+    ]
+}
