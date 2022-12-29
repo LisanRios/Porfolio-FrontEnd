@@ -1,44 +1,35 @@
-<div class="container">
-    <div class="row misProyectosTitulo">
-        <div class="col-md-5 col-sm-2">
-            <h3 class="text-start"><i>Mis Proyectos</i></h3>
-        </div>
-    </div>  
-
-    <div class="row ">   
-        <div class="hstack gap-3">
-           <li class="linea1 list-group-item" *ngFor="let project of projectList">
-                <div class="col-md-0 col-xxl-0">
-                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-static">
-                        <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-primary">{{project.type}}</strong>
-                                <h3 class="mb-0">{{project.name}}</h3>
-                                    <div class="mb-1 text-muted">{{project.date}}</div>
-                                    <p class="card-text mb-auto">{{project.description}}</p>
-                            <a [href]="project.link">Visitar página</a>
-                        </div>
-                        <div class="col-auto d-none d-lg-block"></div>
-                    </div>
+<div class="container"> 
+    
+    <h3 class="pb-2"><i>Mis Proyectos</i></h3>  
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+       <li class="linea1 list-group-item p-2" *ngFor="let project of projectList">     
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-static">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-primary">{{project.type}}</strong>
+                        <h3 class="mb-0">{{project.name}}</h3>
+                            <div class="mb-1 text-muted">{{project.date}}</div>
+                            <p class="card-text mb-auto">{{project.description}}</p>
+                    <a [href]="project.link">Visitar página</a>
                 </div>
-            </li>
-      </div>
-    </div> 
+                <div class="col-auto d-none d-lg-block"></div>
+            </div>
+        </li>
+    </div>
 
-    <div class="container px-4 py-5" id="hanging-icons">
-        <h3 class="pb-2"><i>Tecnologías Dominadas</i></h3>
-        <li class="linea1 list-group-item" *ngFor="let tecnology of tecnologyList">
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <h3 class="pb-2"><i>Tecnologías Dominadas</i></h3>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <li class="linea1" *ngFor="let tecnology of tecnologyList">
                 <div class="col d-flex align-items-start">
                     <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
                         <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
                     </div>
                     <div>
-                        <h2>{{tecnology.icon}}{{tecnology.name}}</h2>
-                        <p>Párrafo de texto debajo del encabezado para explicar el encabezado. Lo agregaremos con otra oración y probablemente sigamos hasta que nos quedemos sin palabras.</p>
-                        <a href="#" class="btn btn-primary">Botón principal</a>
+                        <i [class]="tecnology.icon"></i>
+                        <h2>{{tecnology.name}}</h2>
+                        <p>{{tecnology.description}}</p>
                     </div>
                 </div>
-            </div>
-        </li>
-    </div>
+            </li>
+        </div>
 </div>
+

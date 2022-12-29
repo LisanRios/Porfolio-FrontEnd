@@ -52,88 +52,39 @@
     "tecnology":
     [
         {
-            "image":"https://cdn-icons-png.flaticon.com/512/919/919827.png",
+            "icon":"fa-brands fa-html5",
             "name":"HTML",
-            "description":"",
-            "learnMore":""
+            "description":"HTML, siglas en inglés de HyperText Markup Language, hace referencia al lenguaje de marcado para la elaboración de páginas web."
         },
         {
-            "icon":"",
-            "name":"",
-            "description":"",
-            "learnMore":""
+            "icon":"fa-brands fa-css3-alt",
+            "name":"CSS",
+            "description":"CSS, es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado."
         },
         {
-            "icon":"",
-            "name":"",
-            "description":"",
-            "learnMore":""
+            "icon":"fa-brands fa-js",
+            "name":"JavaScript",
+            "description":"JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado y dinámico."
         },
         {
-            "icon":"",
-            "name":"",
-            "description":"",
-            "learnMore":""
+            "icon":"fa-brands fa-git-alt",
+            "name":"Git",
+            "description":"Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente."
         },
         {
-            "icon":"",
-            "name":"",
-            "description":"",
-            "learnMore":""
+            "icon":"fa-brands fa-angular",
+            "name":"Angular",
+            "description":"Angular es un framework para aplicaciones web desarrollado en TypeScript, de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página."
         },
         {
-            "icon":"",
-            "name":"",
-            "description":"",
-            "learnMore":""
+            "icon":"fa-brands fa-bootstrap",
+            "name":"Boolstrap",
+            "description":"Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web."
         },
         {
-            "icon":"",
-            "name":"",
-            "description":"",
-            "learnMore":""
-        },
-        {
-            "icon":"",
-            "name":"",
-            "description":"",
-            "learnMore":""
-        },
-        {
-            "icon":"",
-            "name":"",
-            "description":"",
-            "learnMore":""
-        },
-        {
-            "icon":"",
-            "name":"",
-            "description":"",
-            "learnMore":""
-        },
-        {
-            "icon":"",
-            "name":"",
-            "description":"",
-            "learnMore":""
-        },
-        {
-            "icon":"",
-            "name":"",
-            "description":"",
-            "learnMore":""
-        },
-        {
-            "icon":"",
-            "name":"",
-            "description":"",
-            "learnMore":""
-        },
-        {
-            "icon":"",
-            "name":"",
-            "description":"",
-            "learnMore":""
+            "icon":"fa-solid fa-code",
+            "name":"TypeScript",
+            "description":"TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases."
         }
     ]
 }
