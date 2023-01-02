@@ -9,7 +9,7 @@ h1, h3, p {
     margin: 30px !important; 
     padding: auto !important; 
     margin-left: 95% !important; 
-    font-size: 37px !important; 
+    font-size: 25px !important; 
     
 }
 .tituloPrincipal {
@@ -86,4 +86,10 @@ footer p, footer li {
 }
 .nro4 {
     background-color: #070066;
+}
+html.dark-mode {
+    filter: invert(100%);
+}
+html.dark-mode img {
+    filter: invert(100%);
 }
