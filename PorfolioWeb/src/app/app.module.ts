@@ -6,6 +6,7 @@ import { EncabezadoComponent } from './componentes/encabezado/encabezado.compone
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { HttpClientModule } from "@angular/common/http";
+import { AppRoutingModuleTsModule } from './app-routing.module.ts/app-routing.module.ts.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +16,8 @@ import { HttpClientModule } from "@angular/common/http";
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModuleTsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
