@@ -1,0 +1,16 @@
+<div class="container"> 
+    <h3 class="pb-2"><i>Tecnologías Dominadas</i></h3>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <li class="linea1" *ngFor="let tecnology of tecnologyList">
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                    </div>
+                    <div>
+                        <i [class]="tecnology.icon"></i>
+                        <h2>{{tecnology.name}}</h2>
+                        <p>{{tecnology.description}}</p>
+                    </div>
+                </div>
+            </li>
+        </div>
+</div>
