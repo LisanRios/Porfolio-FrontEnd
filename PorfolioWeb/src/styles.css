@@ -2,7 +2,7 @@
 li {
     list-style-type: none;
 }
-h1, h3, p {
+h1, h2, h3, p {
     color: #160f29 !important;
 }
 .iconoDeBarras {

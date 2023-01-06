@@ -82,7 +82,7 @@
             "description":"Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web."
         },
         {
-            "icon":"fa-solid fa-code",
+            "icon":"bx bxl-typescript",
             "name":"TypeScript",
             "description":"TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases."
         }
