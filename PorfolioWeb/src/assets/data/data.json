@@ -67,6 +67,11 @@
             "description":"JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado y dinámico."
         },
         {
+            "icon":"fa-solid fa-code",
+            "name":"PSeInt",
+            "description":"PSeInt es un software libre educativo multiplataforma dirigido a personas que se inician en la programación.​"
+        },
+        {
             "icon":"fa-brands fa-git-alt",
             "name":"Git",
             "description":"Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente."
