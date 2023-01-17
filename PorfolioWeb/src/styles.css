@@ -91,6 +91,27 @@ html.dark-mode {
 html.dark-mode img {
     filter: invert(100%);
 }
+html.dark-mode .lineaOndulada {
+    filter: invert(100%);
+}
+html.dark-mode .nro4 {
+    filter: invert(100%);
+}
+html.dark-mode .laLinea {
+    filter: invert(100%);
+}
+html.dark-mode .form_input {
+    filter: invert(100%);
+}
+html.dark-mode .fondoDelSwich {
+    filter: invert(100%);
+}
+.iconoDeRedesSociales {
+    font-size: 38px;
+}
+html.dark-mode .advertencia {
+    filter: invert(100%);
+}
 a {
     outline: none !important;
     text-decoration: none !important;
