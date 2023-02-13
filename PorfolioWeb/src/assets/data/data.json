@@ -90,6 +90,11 @@
             "icon":"bx bxl-typescript",
             "name":"TypeScript",
             "description":"TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases."
+        },
+        {
+            "icon":"bi bi-filetype-sql",
+            "name":"MySQL",
+            "description":"MySQL es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual: Licencia pública general/Licencia comercial por Oracle Corporation y está considerada como la base de datos"
         }
     ]
 }
