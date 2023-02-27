@@ -2,9 +2,11 @@
 li {
     list-style-type: none;
 }
+
 h1, h2, h3, p {
     color: #160f29 !important;
 }
+
 .iconoDeBarras {
     margin: 30px !important; 
     padding: auto !important; 
@@ -12,19 +14,23 @@ h1, h2, h3, p {
     font-size: 25px !important; 
     
 }
+
 .tituloPrincipal {
     margin: 30px !important; 
 }
+
 .miFoto img {
     margin: 30px ; 
     width: 170px !important; 
     height: 170px !important; 
     border-radius: 100% !important; 
 }
+
 .textoDeMiVida {
     margin: 30px !important; 
     font-size: 25px !important; 
 }
+
 .laLinea{
     margin-top: 50px !important; 
     margin-bottom: 50px !important; 
@@ -34,21 +40,26 @@ h1, h2, h3, p {
     text-align: center !important; 
     font-family: 'Orbitron', sans-serif !important; 
 }
+
 .misProyectosTitulo{
     margin: 0px !important; 
 }
+
 .linea1 {
     margin-top: 0px !important; 
     margin-bottom: 0px !important; 
 }
+
 .tecnologiasDominadas{
     margin-top: 20px !important; 
     margin-bottom: 20px !important; 
 }
 
+
 footer p, footer li {
     color: #fff !important; 
 }
+
 .form { 
     min-width: 400px !important; 
     flex : 1 !important; 
@@ -56,6 +67,7 @@ footer p, footer li {
     padding: 30px !important; 
     order: 5 !important; 
 }
+
 .form_input {
 	width: 100% !important;  
 	padding: 7px !important; 
@@ -65,57 +77,72 @@ footer p, footer li {
 	background: transparent !important; 
     color: #160f29 !important; 
 }
+
 .form_input:focus {
 	background: linear-gradient(to bottom, transparent, #a8a8a8) !important; 
 	outline: none !important; 
 }
+
 .form_section textarea {
 	min-height: 140px !important; 
 	resize: none !important; 
 }
+
 .button {
 	background-color: #4d29ff !important; 
 	border-bottom: none !important; 
 	padding: 12px !important; 
 	color: #FFF !important; 
 }
+
 .contacto {
     font-size: 20px !important; 
 }
+
 .nro4 {
     background-color: #070066;
 }
+
 html.dark-mode {
     filter: invert(100%);
 }
+
 html.dark-mode img {
     filter: invert(100%);
 }
+
 html.dark-mode .lineaOndulada {
     filter: invert(100%);
 }
+
 html.dark-mode .nro4 {
     filter: invert(100%);
 }
+
 html.dark-mode .laLinea {
     filter: invert(100%);
 }
+
 html.dark-mode .form_input {
     filter: invert(100%);
     color: #a8a8a8 !important;
 }
+
 html.dark-mode .fondoDelSwich {
     filter: invert(100%);
 }
+
 .iconoDeRedesSociales {
     font-size: 38px;
 }
+
 html.dark-mode .form_input:focus {
     filter: invert(100%);
     background: linear-gradient(to bottom, transparent, #000000) !important; 
 	outline: none !important; 
     
 }
+
 a {
     outline: none !important;
     text-decoration: none !important;
