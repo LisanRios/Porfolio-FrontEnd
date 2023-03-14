@@ -143,6 +143,10 @@ html.dark-mode .form_input:focus {
     
 }
 
+html.dark-mode .advertencia {
+    filter: invert(100%);
+}
+
 a {
     outline: none !important;
     text-decoration: none !important;
