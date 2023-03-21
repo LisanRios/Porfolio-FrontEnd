@@ -132,6 +132,11 @@ html.dark-mode .fondoDelSwich {
     filter: invert(100%);
 }
 
+html.dark-mode .checkboxs input {
+    filter: invert(100%);
+
+}
+
 .iconoDeRedesSociales {
     font-size: 38px;
 }

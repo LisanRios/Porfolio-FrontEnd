@@ -10,6 +10,7 @@ import { HttpClientModule } from "@angular/common/http";
 import { AppRoutingModuleTsModule } from './app-routing.module.ts/app-routing.module.ts.module';
 import { TecnologiasComponent } from './componentes/tecnologias/tecnologias.component';
 import { Pagina404Component } from './componentes/pagina404/pagina404.component';
+import { LoginComponent } from './componentes/login/login.component';
 
 
 
@@ -21,6 +22,7 @@ import { Pagina404Component } from './componentes/pagina404/pagina404.component'
     ContactoComponent,
     TecnologiasComponent,
     Pagina404Component,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

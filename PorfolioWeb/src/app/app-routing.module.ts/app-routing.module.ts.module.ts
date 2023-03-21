@@ -8,13 +8,15 @@ import { ProyectosComponent } from '../componentes/proyectos/proyectos.component
 import { ContactoComponent } from '../componentes/contacto/contacto.component';
 import { TecnologiasComponent } from '../componentes/tecnologias/tecnologias.component';
 import { Pagina404Component } from '../componentes/pagina404/pagina404.component';
+import { LoginComponent } from '../componentes/login/login.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'Inicio', pathMatch: 'full'},
   {path: 'Inicio', component: EncabezadoComponent},
   {path: 'Proyectos', component: ProyectosComponent},
   {path: 'Tecnologías-Dominadas', component: TecnologiasComponent},
-  {path: 'Contacto', component: ContactoComponent},  
+  {path: 'Contacto', component: ContactoComponent}, 
+  {path: 'Login', component: LoginComponent}, 
   {path: '**', component: Pagina404Component},
 ];
 
