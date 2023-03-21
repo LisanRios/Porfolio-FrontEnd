@@ -95,6 +95,11 @@
             "icon":"bi bi-filetype-sql",
             "name":"MySQL",
             "description":"MySQL es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual: Licencia pública general/Licencia comercial por Oracle Corporation y está considerada como la base de datos"
+        },
+        {
+            "icon":"fa-brands fa-java",
+            "name":"JAVA",
+            "description":"El lenguaje de programación Java la sintaxis deriva en gran medida de C y C++, pero tiene menos utilidades de bajo nivel que cualquiera de ellos. Las aplicaciones de Java son compiladas a bytecode (clase Java), que puede ejecutarse en cualquier máquina virtual Java (JVM) sin importar la arquitectura de la computadora subyacente."
         }
     ]
 }
