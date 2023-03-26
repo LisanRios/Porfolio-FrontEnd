@@ -1,4 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+body::-webkit-scrollbar{
+    width: 15px !important;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #070066;
+    border-radius: 15px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background-color: #040033;
+    border-radius: 30px;
+}
+
 li {
     list-style-type: none;
 }
@@ -159,4 +173,26 @@ a {
 
 .tecnologia i {
     font-size: 45px !important;
+}
+
+.lineaphotos{
+    background-color: #ffffff;
+}
+
+.photos {
+    display: inline;
+    margin: auto;
+    width: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+html.dark-mode .photos {
+    filter: invert(0%);
+    background-color: #070066 !important;
+}
+
+html.dark-mode .lineaphotos {
+    filter: invert(0%);
+    background-color: #070066 !important;
 }
