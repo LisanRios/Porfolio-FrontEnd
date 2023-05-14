@@ -11,6 +11,7 @@ import { AppRoutingModuleTsModule } from './app-routing.module.ts/app-routing.mo
 import { TecnologiasComponent } from './componentes/tecnologias/tecnologias.component';
 import { Pagina404Component } from './componentes/pagina404/pagina404.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -27,7 +28,8 @@ import { LoginComponent } from './componentes/login/login.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModuleTsModule
+    AppRoutingModuleTsModule,
+    FormsModule,    
   ],
   providers: [],
   bootstrap: [AppComponent]

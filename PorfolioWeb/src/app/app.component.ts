@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { TokenService } from './servicios/token.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +9,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'porfolioweb';
+
+  constructor(private router: Router, private tokenService: TokenService){}
+
+
 }
   let previousTitle = document.title;
 
@@ -17,4 +23,6 @@ export class AppComponent {
   window.addEventListener('focus', () => {
     document.title = previousTitle;
   })
+
+  
 

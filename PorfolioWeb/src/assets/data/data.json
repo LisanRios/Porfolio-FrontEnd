@@ -110,6 +110,75 @@
             "name":"JAVA",
             "nivel": "★★★★★",
             "description":"El lenguaje de programación Java la sintaxis deriva en gran medida de C y C++, pero tiene menos utilidades de bajo nivel que cualquiera de ellos. Las aplicaciones de Java son compiladas a bytecode (clase Java), que puede ejecutarse en cualquier máquina virtual Java (JVM) sin importar la arquitectura de la computadora subyacente."
+        },
+        {
+            "icon":"bx bxl-spring-boot",
+            "name":"Spring Boot",
+            "nivel": "★★★★☆",
+            "description":"Java Spring Boot (Spring Boot) es una herramienta que hace que el desarrollo de aplicaciones web y microservicios con Spring Framework sea más rápido y fácil a través de tres funcionalidades principales: Configuración automática."
+        },
+        {
+            "icon":"bx bxs-copyright",
+            "name":"C",
+            "nivel": "★★☆☆☆",
+            "description":"C es un lenguaje de programación de propósito general​ originalmente desarrollado por Dennis Ritchie entre 1969 y 1972 en los Laboratorios Bell, ​ como evolución del anterior lenguaje B, a su vez basado en BCPL.​​​Al igual que B, es un lenguaje orientado a la implementación de sistemas operativos, concretamente Unix."
+        },
+        {
+            "icon":"bx bxl-c-plus-plus",
+            "name":"C++",
+            "nivel": "★★★☆☆",
+            "description":"C++ es un lenguaje de programación diseñado en 1979 por Bjarne Stroustrup. La intención de su creación fue extender al lenguaje de programación C y añadir mecanismos que permiten la manipulación de objetos. En ese sentido, desde el punto de vista de los lenguajes orientados a objetos, C++ es un lenguaje híbrido."
+        }
+    ],
+    "titule": 
+    [
+        {
+            "type": "Curso",
+            "name": "Argentina Progarama 4.0",
+            "dateInicio": "01/01/2998",
+            "dateFin": "01/01/2999",
+            "description": "Este proyecto se encuentra en desarrollo.",
+            "link": "#"
+        },
+        {
+            "type": "Curso",
+            "name": "Argentina Progarama 4.0",
+            "dateInicio": "01/01/2998",
+            "dateFin": "01/01/2999",
+            "description": "Este proyecto se encuentra en desarrollo.",
+            "link": "#"
+        },
+        {
+            "type": "Curso",
+            "name": "Argentina Progarama 4.0",
+            "dateInicio": "01/01/2998",
+            "dateFin": "01/01/2999",
+            "description": "Este proyecto se encuentra en desarrollo.",
+            "link": "#"
+        },
+        {
+            "type": "Curso",
+            "name": "Argentina Progarama 4.0",
+            "dateInicio": "01/01/2998",
+            "dateFin": "01/01/2999",
+            "description": "Este proyecto se encuentra en desarrollo.",
+            "link": "#"
+        },
+        {
+            "type": "Curso",
+            "name": "Argentina Progarama 4.0",
+            "dateInicio": "01/01/2998",
+            "dateFin": "01/01/2999",
+            "description": "Este proyecto se encuentra en desarrollo.",
+            "link": "#"
+        },
+        {
+            "type": "Curso",
+            "name": "Argentina Progarama 4.0",
+            "dateInicio": "01/01/2998",
+            "dateFin": "01/01/2999",
+            "description": "Este proyecto se encuentra en desarrollo.",
+            "link": "#"
         }
     ]
 }
