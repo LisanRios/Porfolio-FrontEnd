@@ -1,18 +1,29 @@
 <div class="container"> 
     <h3 class="pb-2"><i>Mis Proyectos</i></h3>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-       <li class="linea1 list-group-item p-2" *ngFor="let project of projectList">     
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-static">
-                <div class=" col p-4 d-flex flex-column position-static">
-                    <strong class="advertencia d-inline-block mb-2 text-primary">{{project.type}}</strong>
-                        <h3 class="mb-0">{{project.name}}</h3>
-                            <div class="mb-1 text-muted">{{project.date}}</div>
-                            <p class="card-text mb-auto">{{project.description}}</p>
-                    <a class="advertencia" [href]="project.link">Visitar página</a>
-                </div>
-                <div class="col-auto d-none d-lg-block"></div>
+       <li class="linea1 list-group-item p-2" *ngFor="let Experiencia of expe">     
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-static">
+            <div class=" col p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">{{Experiencia.nombreE}}</h3>
+                        <p class="card-text mb-auto">{{Experiencia.descripcionE}}</p> 
+                   <td *ngIf="islogged">
+                        <button class="m-1 btn btn-light" routerLink="/editexp/{{Experiencia.id}}">
+                            <i class="bi bi-pencil-fill"></i> EDITAR</button>
+                    </td>
+                    <td *ngIf="islogged">
+                        <button class="m-1 btn btn-danger" (click)="delete(Experiencia.id)">
+                            <i class="bi bi-trash-fill"></i> BORRAR</button>
+                    </td>   
             </div>
+            <div class="col-auto d-none d-lg-block"></div> 
+        </div>
         </li>
     </div>
+    <div class="col-lg-2">
+        <button type="button" class="btn btn-primary" routerLink="/nuevaexp" *ngIf="islogged">
+            Nuevo Proyecto
+        </button>
+    </div>
 </div>
+
 

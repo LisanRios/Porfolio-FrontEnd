@@ -12,6 +12,11 @@ import { TecnologiasComponent } from './componentes/tecnologias/tecnologias.comp
 import { Pagina404Component } from './componentes/pagina404/pagina404.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { FormsModule } from '@angular/forms';
+import { NewProyectoComponent } from './componentes/proyectos/new-proyecto.component';
+import { EditProyectosComponent } from './componentes/proyectos/edit-proyectos.component';
+import { NewTecnologiaComponent } from './componentes/tecnologias/new-tecnologia.component';
+import { EditTecnologiaComponent } from './componentes/tecnologias/edit-tecnologia.component';
+
 
 
 
@@ -24,6 +29,10 @@ import { FormsModule } from '@angular/forms';
     TecnologiasComponent,
     Pagina404Component,
     LoginComponent,
+    NewProyectoComponent,
+    EditProyectosComponent,
+    NewTecnologiaComponent,
+    EditTecnologiaComponent
   ],
   imports: [
     BrowserModule,
