@@ -38,21 +38,3 @@
         <img class="photos photoss" src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Logo_UNSAM.png" alt="">
     </div>
 </div>
-<div class="container"> 
-    <h3 class="pb-2"><i>Mis Titulos/Certificados</i></h3>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-       <li class="linea1 list-group-item p-2" *ngFor="let titule of tituleList">     
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-static">
-                <div class=" col p-4 d-flex flex-column position-static">
-                    <strong class="advertencia d-inline-block mb-2 text-primary">{{titule.type}}</strong>
-                        <h3 class="mb-0">{{titule.name}}</h3>
-                            <div class=" text-muted">Desde: {{titule.dateInicio}} - Hasta: {{titule.dateFin}}</div>
-                            <div class=" text-muted"></div>
-                            <p class="card-text mb-auto">{{titule.description}}</p>
-                    <a class="advertencia" [href]="titule.link">ver archivo</a>
-                </div>
-                <div class="col-auto d-none d-lg-block"></div>
-            </div>
-        </li>
-    </div>
-</div>
