@@ -1,46 +1,11 @@
 {
     "nombre": "Lisandro Rios",
-    "age": "19",
-    "image": "https://argentinaprograma.inti.gob.ar/pluginfile.php/240740/user/icon/moove/f1?rev=436079",
+    "age": "20",
+    "image": "https://pps.whatsapp.net/v/t61.24694-24/362317301_174376545552283_4593553840056302147_n.jpg?ccb=11-4&oh=01_AdTZ9nQjH0gb3T69JQKXeoEizO-NG4VfaUa8yQdn8XajvQ&oe=64FDBD6C&_nc_cat=108",
     "position": "Programador Web Full Stack Junior",
     "ubication": "Buenos Aires (Argentina)",
     "project": 
     [
-        {
-            "type": "Página Web",
-            "name": "Nombre del proyecto",
-            "date": "00/00/2999",
-            "description": "Este proyecto se encuentra en desarrollo.",
-            "link": "#"
-        },
-        {
-            "type": "Página Web",
-            "name": "Nombre del proyecto",
-            "date": "00/00/2999",
-            "description": "Este proyecto se encuentra en desarrollo.",
-            "link": "#"
-        },
-        {
-            "type": "Página Web",
-            "name": "Nombre del proyecto",
-            "date": "00/00/2999",
-            "description": "Este proyecto se encuentra en desarrollo.",
-            "link": "#"
-        },
-        {
-            "type": "Página Web",
-            "name": "Nombre del proyecto",
-            "date": "00/00/2999",
-            "description": "Este proyecto se encuentra en desarrollo.",
-            "link": "#"
-        },
-        {
-            "type": "Página Web",
-            "name": "Nombre del proyecto",
-            "date": "00/00/2999",
-            "description": "Este proyecto se encuentra en desarrollo.",
-            "link": "#"
-        },
         {
             "type": "Página Web",
             "name": "Nombre del proyecto",
@@ -133,52 +98,25 @@
     "titule": 
     [
         {
-            "type": "Curso",
+            "type": "Progaramador Web Full Stack",
             "name": "Argentina Progarama 4.0",
-            "dateInicio": "01/01/2998",
-            "dateFin": "01/01/2999",
-            "description": "Este proyecto se encuentra en desarrollo.",
-            "link": "#"
+            "dateInicio": "01/10/2022",
+            "dateFin": "30/05/2023",
+            "description": "Se trata de un programa nacional y federal que tiene como objetivo capacitar a personas en lenguajes y conocimientos sobre programación, testing y habilidades digitales para potenciar la empleabilidad en el sector del software y la tecnología."
         },
         {
-            "type": "Curso",
-            "name": "Argentina Progarama 4.0",
-            "dateInicio": "01/01/2998",
-            "dateFin": "01/01/2999",
-            "description": "Este proyecto se encuentra en desarrollo.",
-            "link": "#"
+            "type": "Técnico Universitario en Programación Informática",
+            "name": "UNSAM (Universidad Nacional de San Martín)",
+            "dateInicio": "01/02/2022",
+            "dateFin": "En curso",
+            "description": "El  objetivo  es  formar  técnicos  en  programación,  que  puedan  desarrollar proyectos de mediana envergadura, determinar las necesidades informáticas de empresas de mediano porte, resolver los problemas  informáticos de las mismas, trabajar en forma independiente en proyectos, acotados a las necesidades de la pequeña y mediana industria, y  colaborar    en estos mismos  temas con profesionales de la informática cuando los proyectos sean de mayor envergadura. El egresado de esta tecnicatura  tendrá  las herramientas  necesarias para poder comprender  las  nuevas  tecnologías  de  programación y hacer uso de ellas eficientemente para resolver problemas."
         },
         {
-            "type": "Curso",
-            "name": "Argentina Progarama 4.0",
-            "dateInicio": "01/01/2998",
-            "dateFin": "01/01/2999",
-            "description": "Este proyecto se encuentra en desarrollo.",
-            "link": "#"
-        },
-        {
-            "type": "Curso",
-            "name": "Argentina Progarama 4.0",
-            "dateInicio": "01/01/2998",
-            "dateFin": "01/01/2999",
-            "description": "Este proyecto se encuentra en desarrollo.",
-            "link": "#"
-        },
-        {
-            "type": "Curso",
-            "name": "Argentina Progarama 4.0",
-            "dateInicio": "01/01/2998",
-            "dateFin": "01/01/2999",
-            "description": "Este proyecto se encuentra en desarrollo.",
-            "link": "#"
-        },
-        {
-            "type": "Curso",
-            "name": "Argentina Progarama 4.0",
-            "dateInicio": "01/01/2998",
-            "dateFin": "01/01/2999",
-            "description": "Este proyecto se encuentra en desarrollo.",
-            "link": "#"
+            "type": "ONE – Oracle Next Education",
+            "name": "ONE – Oracle Next Education",
+            "dateInicio": "03/04/2023",
+            "dateFin": "En curso",
+            "description": "¿Qué es ONE? Oracle Next Education es un programa de educación, empleabilidad e inclusión 100% gratuito, creado para ofrecer formación de calidad a personas que no han contado con oportunidades para continuar sus estudios y desarrollar una carrera profesional."
         }
     ]
 }

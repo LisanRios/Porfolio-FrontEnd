@@ -23,7 +23,6 @@ export class EncabezadoComponent implements OnInit {
     this.datosPorfolio.obtenerDatos().subscribe(data=> {
       this.tituleList = data.titule;
     });
-
   }
 
 
